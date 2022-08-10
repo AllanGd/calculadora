@@ -3,7 +3,7 @@
   padding: 0;
 }
 .fundo{
-  background-image: linear-gradient(45deg, white, blue);
+  background-image: linear-gradient(45deg, white, rgb(143, 143, 233));
   height: 100vh;
   color: white;
   font-family: arial;
@@ -40,4 +40,8 @@
   color: black;
   text-align: right;
   padding: 5px;
+}
+
+.botao:active{
+  background-color: rgb(70, 68, 68);
 }
