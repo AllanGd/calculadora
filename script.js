@@ -15,6 +15,10 @@ function voltar(){
 function calcular(){
   var resultado = document.getElementById("resultado").innerHTML;
   if (resultado){
-    document.getElementById("resultado").innerHTML = eval(resultado);
+    if (resultado==".06."){
+      document.getElementById("resultado").innerHTML = "Criado por Allan :)";
+    }else{
+      document.getElementById("resultado").innerHTML = eval(resultado);
+    }
   }
 }
